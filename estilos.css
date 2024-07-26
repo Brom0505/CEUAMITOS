@@ -1,0 +1,51 @@
+#cabecera {
+    flex: 1 0 25%; 
+    background-image: url("pngtree-blue-hexagon-background-wallpapers-3d-picture-image_2711950.jpg");
+    padding: 20px;
+    box-sizing: border-box;
+h1 {
+    font-size: 4em; 
+    color: #0EF6FA;   
+    text-aling: center; 
+        text-shadow: 
+        1px 1px 0 #0000FF, 
+        -1px -1px 0 #0000FF, 
+        1px -1px 0 #0000FF, 
+        -1px 1px 0 #0000FF;
+}
+}
+
+#principal {
+    flex: 3 0 75%;
+    background-size: cover;
+    background-position: center;
+    background-image: url("pngtree-blue-hexagon-background-wallpapers-3d-picture-image_2711950.jpg");
+    padding: 20px;
+    box-sizing: border-box;
+}
+button{
+display: inline-block;
+  padding: 15px 25px;
+  font-size: 15px;
+  cursor: pointer;
+  text-aling: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #0EF6FA;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #030702;
+  width: 400px; 
+  line-height: 60px; 
+  text-align: center; 
+}
+button:hover{
+  background-color: #0000E3;
+}
+button:active{
+  background-color: #000079;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
